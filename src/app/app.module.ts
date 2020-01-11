@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { MusicaComponent } from './components/musica/musica.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
-import { SearchComponent } from './components/search/search.component';
 import { ArtistainfoComponent } from './components/artistainfo/artistainfo.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -25,7 +24,6 @@ import { FormsModule } from '@angular/forms';
     routingComponents,
     MusicaComponent,
     ContactoComponent,
-    SearchComponent,
     ArtistainfoComponent,
     FooterComponent
   ],
