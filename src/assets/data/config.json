@@ -1,0 +1,8 @@
+{
+    "api": {
+        "url": "https://api.spotify.com/v1/",
+        "herokuUrl": "https://spotiapp-get-token.herokuapp.com/spotifyToken/",
+        "token": "Bearer BQDfjxrxXpFta5wRiDRf9qhiYjvEhHBosJGdqFV-4VHCDoC6kQuDED_MWV9w2_oHxialxPt_j4cNYWjdgTQ"
+
+    }
+}
