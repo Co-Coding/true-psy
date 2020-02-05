@@ -21,14 +21,14 @@ export class ProductoresComponent implements OnInit {
   this.prodservice.getProductores()
   .subscribe( data => {
     this.productores = data 
-    console.log(data);
+    // console.log(data);
   } );
   
   
 }
 
   verArtista( idx:string ){
-    console.log(idx);
+    // console.log(idx);
     this.router.navigate( ['/artista', idx] );
     
 

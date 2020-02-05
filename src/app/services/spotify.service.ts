@@ -27,7 +27,7 @@ export class SpotifyService {
   getToken(): any {
     return this.http.get(configFile.api.herokuUrl).pipe(
       map((data: any) => {
-        console.log(data);
+        // console.log(data);
         sessionStorage.setItem('token', `Bearer ${data.access_token}`);
       })
     );

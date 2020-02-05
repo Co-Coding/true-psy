@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { AppComponent } from './app.component';
-import { MusicaComponent } from './components/musica/musica.component';
+// import { MusicaComponent } from './components/musica/musica.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ArtistainfoComponent } from './components/artistainfo/artistainfo.component';
@@ -22,7 +22,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     NavbarComponent,
     routingComponents,
-    MusicaComponent,
+    // MusicaComponent,
     ContactoComponent,
     ArtistainfoComponent,
     FooterComponent
