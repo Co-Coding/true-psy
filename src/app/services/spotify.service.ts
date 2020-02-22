@@ -48,8 +48,6 @@ export class SpotifyService {
      return this.getQuery(`artists/${idspotify}/albums?limit=3`)
    }
 
-
-
   getArtista( termino:string ){
     //https://api.spotify.com/v1/artists/2YIxJ9C0DDvuot3bK6lWNk/top-tracks
     return this.getQuery(`search?q=${ termino }&type=album`);

@@ -24,7 +24,6 @@ export class ProductoresComponent implements OnInit {
     // console.log(data);
   } );
   
-  
 }
 
   verArtista( idx:string ){

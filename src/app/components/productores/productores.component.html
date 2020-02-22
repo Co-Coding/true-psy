@@ -1,6 +1,6 @@
 <div class="container Site  ">
 
-    <div class="row artistapadding Site-content ">
+    <!-- <div class="row artistapadding Site-content ">
         <div *ngFor=" let art of productores; let i = index " class="col-md-4  ">
             <div class="card marginbot ">
                 <img (click)="verArtista(i)" [src]="art.img" class="card-img-top cemter" style="display: block; margin: 0 auto;" alt="...">
@@ -15,4 +15,26 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+
+    <div *ngFor=" let art of productores; let i = index " class="producer-container container ">
+        <div class="producer-block row ">
+            <div class="producer-img  col-xl-4 ">
+                <img [src]="art.img" style="display: block; margin: 0 auto;" (click)="verArtista(i)" width="300px" height="300px" alt="">
+            </div>
+            <div class="producer-details col-xl-8  ">
+                <div class="producer-alias">
+                    {{ art.alias }}
+                    <img class="mr-4" width="50px" height="30px" src="../../../assets/img/argentina.png" alt="">
+                </div>
+                <div class="producer-bio">
+                    {{ art.bio | slice:0:170 }} {{ art.bio.length > 20 ? '...' : '' }}
+                </div>
+                <div class=" mt-5 text-right ">
+                    <button (click)="verArtista(i)" class="btn btn-toolbar btn-outline-info ">Leer más</button>
+                </div>
+
+            </div>
+        </div>
+    </div>

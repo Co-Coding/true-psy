@@ -1,141 +1,321 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
-.Site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-html,
-body {
-    padding-top: 2.5rem;
-    font-family: 'Lato', sans-serif;
-    height: 100%;
-}
-
-
-/* navbar */
-
-.fixed-top {
-    margin-bottom: 4rem;
-}
-
-
-/* 
+    /* You can add global styles to this file, and also import other style files */
+    
+    @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+    .Site {
+        margin-top: 5rem;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    
+    html,
+    body {
+        color: #fff;
+        background: #1a1a1a;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.72857143;
+        padding-top: 2.5rem;
+        /* font-family: 'Lato', sans-serif; */
+        height: 100%;
+    }
+    /* navbar */
+    
+    .fixed-top {
+        margin-bottom: 4rem;
+    }
+    
+    .navbar {
+        /* background: #181818 !important; */
+        background: rgb(0, 0, 0, 0.7) !important;
+    }
+    /* 
 .Site-content {
     flex: 1;
 } */
-
-
-/* body {
+    /* body {
     background-color: black;
     color: white !important;
 } */
-
-hr {
-    border-color: black;
-}
-
-h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-
-/* Artistas */
-
-.artistainfo p {
-    margin-bottom: 4rem;
-    font-size: 1.3rem;
-}
-
-img {
-    cursor: pointer;
-}
-
-.artistapadding {
-    padding-top: 2rem;
-}
-
-.row .marginbot {
-    margin-bottom: 1rem;
-}
-
-
-/* Carousel */
-
-.carousel {
-    margin-top: 2rem;
-}
-
-.carousel-inner .carouselinfo {
-    background-color: rgb(0, 0, 0, 0.9);
-    border-radius: 50%;
-}
-
-
-/* Jumbotron */
-
-.jumbotron {
-    font-size: 1.4em;
-    font-weight: 400;
-    color: #555;
-    background-color: #FFF;
-    line-height: 2;
-    letter-spacing: 1px;
-    background-color: white;
-    padding-bottom: 20em;
-}
-
-.jumbotron i {
-    padding-bottom: 0.5em;
-}
-
-
-/* Imagenes */
-
-.img-thumb {
-    width: 50px;
-    height: 50px;
-}
-
-
-/* Footer */
-
-footer {
-    color: white;
-    background-color: rgb(29, 29, 29);
-}
-
-.iconos i {
-    padding: 1em;
-}
-
-footer img {
-    cursor: default;
-    max-width: 40%;
-    max-height: 10%;
-}
-
-
-/* About */
-
-.about {
-    padding-bottom: 20em;
-}
-
-.about p {
-    font-size: 1.4em;
-    font-weight: 400;
-    color: #555;
-    background-color: #FFF;
-    line-height: 2;
-    letter-spacing: 1px;
-}
-
-.about img {
-    cursor: default;
-    max-width: 40%;
-    max-height: 10%;
-}
+    
+    hr {
+        border-color: black;
+    }
+    
+    h1 {
+        margin-top: 3rem;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    /* Artistas */
+    
+    .artistainfo p {
+        margin-bottom: 4rem;
+        font-size: 1.3rem;
+    }
+    
+    img {
+        cursor: pointer;
+    }
+    
+    .artistapadding {
+        padding-top: 2rem;
+    }
+    
+    .row .marginbot {
+        margin-bottom: 1rem;
+    }
+    /* Carousel */
+    
+    .carousel-inner {
+        max-height: 600px;
+    }
+    
+    .carousel-inner img {
+        max-height: 600px;
+    }
+    
+    .carousel-indicators img {
+        max-width: 100px;
+    }
+    
+    .carousel {
+        margin-top: 2rem;
+    }
+    
+    .carousel-inner .carouselinfo {
+        background-color: rgb(0, 0, 0, 0.9);
+        border-radius: 50%;
+    }
+    /* Jumbotron */
+    
+    .jumbotron {
+        color: #fff;
+        background: #1a1a1a;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.72857143;
+        padding-top: 2.5rem;
+        height: 100%;
+        font-size: 1.4em;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 1px;
+        padding-bottom: 20em;
+    }
+    
+    .jumbotron i {
+        padding-bottom: 0.5em;
+    }
+    /* Imagenes */
+    
+    .img-thumb {
+        width: 50px;
+        height: 50px;
+    }
+    /* Footer */
+    
+    footer {
+        color: white;
+        background-color: rgb(29, 29, 29);
+    }
+    
+    .iconos i {
+        margin-right: 0.2em;
+        padding-bottom: 1em;
+    }
+    
+    footer img {
+        cursor: default;
+        max-width: 40%;
+        max-height: 10%;
+    }
+    
+    footer i {
+        cursor: pointer;
+        color: white;
+        max-width: 40%;
+        max-height: 10%;
+    }
+    /* About */
+    
+    .about {
+        padding-bottom: 20em;
+    }
+    
+    .about p {
+        font-size: 1.4em;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 1px;
+    }
+    
+    .about img {
+        cursor: default;
+        max-width: 40%;
+        max-height: 10%;
+    }
+    /* Producer */
+    
+    .producer-container .producer-block {
+        border-bottom: 1px solid #494848;
+        margin-bottom: 15px;
+    }
+    
+    .producer-container .producer-block .producer-img {
+        margin-bottom: 10px;
+    }
+    
+    .producer-container .producer-block .producer-details {
+        vertical-align: top;
+        padding-left: 20px;
+        width: calc(100% - 165px);
+        display: inline-block;
+    }
+    
+    .producer-container .producer-block .producer-details .producer-alias {
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .producer-container .producer-block .producer-details .producer-alias:hover {
+        font-size: 40px;
+        font-weight: bold;
+        color: #3bec71;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .producer-container .producer-block .producer-details .producer-bio {
+        width: 100%;
+        white-space: normal;
+        font-size: 22px;
+        letter-spacing: 1.2px;
+        line-height: 1.7em;
+        font-weight: normal;
+        color: rgb(124, 123, 123);
+        margin-top: 5px;
+    }
+    
+    .producer-container .producer-block .producer-img .icon-align {
+        width: 400px;
+        display: inline-block;
+    }
+    
+    .producer-container .producer-block .producer-img .icon-align .icon i {
+        margin-right: 10px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        opacity: 0;
+        transition: 0.6s opacity;
+        transform: translate3d(0, -50%, 0);
+    }
+    
+    .producer-container .producer-block .producer-img .icon-align .icon i::before {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: -35px;
+    }
+    
+    .producer-container .producer-block .producer-img:hover>.icon-align .icon i {
+        opacity: 1;
+    }
+    /* Hover en la Imagen */
+    
+    .container-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div.hover {
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    div.hover img {
+        max-width: 100%;
+        opacity: 1;
+        transition: opacity 0.35s;
+    }
+    
+    div.hover>div {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        position: absolute;
+    }
+    
+    div.hover>div a {
+        color: #ffffff;
+    }
+    
+    div.hover>div a i {
+        font-size: 50px;
+        opacity: 0;
+        top: 50%;
+        position: relative;
+        transform: translate3d(0, -50%, 0);
+        transition-delay: 0s;
+        display: inline-block;
+    }
+    
+    div.hover>div a i.left-icon {
+        transform: translate3d(0, -50%, 0);
+    }
+    
+    div.hover>div a i.right-icon {
+        transform: translate3d(0, -50%, 0);
+    }
+    
+    div.hover>div::before {
+        position: absolute;
+        top: 30px;
+        right: 50%;
+        bottom: 30px;
+        left: 50%;
+        border-left: 1px solid rgba(255, 255, 255, 0.8);
+        border-right: 1px solid rgba(255, 255, 255, 0.8);
+        content: '';
+        opacity: 0;
+        background-color: #ffffff;
+        transition: all 0.4s;
+        transition-delay: 0.3s;
+    }
+    
+    div.hover:hover img {
+        opacity: 0.35;
+    }
+    
+    div.hover:hover>div i {
+        opacity: 0.9;
+        transition: 0.3s ease-in-out;
+        transition-delay: 0.3s;
+    }
+    
+    div.hover:hover>div i.left-icon {
+        transform: translate3d(-25%, -50%, 0);
+    }
+    
+    div.hover:hover>div i.right-icon {
+        transform: translate3d(25%, -50%, 0);
+    }
+    
+    div.hover:hover>div::before {
+        background: rgba(255, 255, 255, 0);
+        left: 30px;
+        right: 30px;
+        opacity: 1;
+        transition-delay: 0s;
+    }

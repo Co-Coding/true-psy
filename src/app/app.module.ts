@@ -11,6 +11,7 @@ import { ArtistainfoComponent } from './components/artistainfo/artistainfo.compo
 import { FooterComponent } from './components/footer/footer.component';
 
 import { FormsModule } from '@angular/forms';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 // import { AboutComponent } from './components/about/about.component';
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     // MusicaComponent,
     ContactoComponent,
     ArtistainfoComponent,
-    FooterComponent
+    FooterComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,

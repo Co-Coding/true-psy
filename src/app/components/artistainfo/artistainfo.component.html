@@ -1,18 +1,28 @@
 <div class="container">
-
-    <div class="text-right">
-        <button type="button" [routerLink]="['/artistas']" routerLinkActive="router-link-active" class="btn btn-danger ">Regresar</button>
-    </div>
     <h1 class="text-center">{{ productores.alias }}</h1>
 
     <div class="row artistapadding ">
-        <div class="col-md-6">
-            <img class="" src="{{productores?.img}}" style="width: 90%; height: 500px" alt="">
+
+        <div class="container-img col-md-6">
+            <div class="hover ">
+                <img class="" src="{{productores?.img}}" style="width: 90%; height: 500px  " alt="">
+                <div>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-4x left-icon"></i></a>
+                    <a href="https://www.facebook.com/"><i class=" fab fa-facebook-square fa-4x right-icon"></i></a>
+                    <!-- <a href="https://soundcloud.com/true-psy"> <i class="fab fa-soundcloud fa-2x "></i></a> -->
+                </div>
+            </div>
         </div>
+        <!-- <div class="col-md-6">
+            <img class="" src="{{productores?.img}}" style="width: 90%; height: 500px " alt="">
+        </div> -->
+
+
+
         <div class="col-md-6">
             <h3 class="text-center"> Mejores lanzamientos</h3>
             <hr>
-            <div *ngFor="let album of album" class="card mb-3 text-center" style=" width: 100%; ">
+            <div *ngFor="let album of album" class="card mb-3 text-center text-white bg-dark" style=" width: 100%; ">
                 <div class="row no-gutters  ">
                     <div class="col-md-4">
                         <img [src]="album.images[0].url" class="card-img" alt="...">
@@ -43,13 +53,10 @@
 <div class="container">
     <div class="row">
         <div class="col">
-
             <h1>Top Tracks</h1>
-
-
             <table class="table">
                 <thead>
-                    <tr>
+                    <tr class="text-white">
                         <th>Foto</th>
                         <th>Album</th>
                         <th>Canción</th>
@@ -57,7 +64,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let top of top">
+                    <tr class="text-white" *ngFor="let top of top">
                         <td> <img [src]="top.album.images[0].url " class="img-thumb"> </td>
                         <td> {{ top.album.name }} </td>
                         <td> {{ top.name }} </td>
@@ -66,5 +73,13 @@
                 </tbody>
             </table>
         </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" [src]="productores.soundcloud | domseguro "></iframe>
+    <div class="text-right">
+        <button type="button" [routerLink]="['/artistas']" routerLinkActive="router-link-active" class="btn btn-danger mt-4 mb-4">Regresar</button>
     </div>
 </div>

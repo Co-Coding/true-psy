@@ -6,8 +6,9 @@
         "estilo": "Full-on",
         "img": "assets/img/aktyum.png",
         "idspotify": "3Ubx1GKHpMBC2Mk0a59CJr",
-        "bio": "Aktyum is a psytrance Fullon proyect started by Einar Dan Petersen, born in argentina, brings you The most exiting psychedelic experience whit his live sets.He has release music on great Labels like Dacru, Rizoma and Techsafari."
-
+        "bio": "Aktyum is a psytrance Fullon proyect started by Einar Dan Petersen, born in argentina, brings you The most exiting psychedelic experience whit his live sets.He has release music on great Labels like Dacru, Rizoma and Techsafari.",
+        "pais": "",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/159725351&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
     },
     {
         "id": "1",
@@ -17,7 +18,9 @@
         "estilo": "Full-on",
         "img": "assets/img/abat.png",
         "idspotify": "2YIxJ9C0DDvuot3bK6lWNk",
-        "bio": "ABAT is a Psytrance project originating in Buenos Aires, Argentina. In his career as a DJProducer, hes been able to work his way up, sharing the stage with big names of his genre such as Undercover, Astrix, Zen Mechanics, Pragmatix, Lifeforms, and Egorythmia. One of his first appearances in the national scene was at the Buenos Aires Trance(BAT) festival, later performing as a resident at Universal Language and Paradise outdoor among others."
+        "bio": "ABAT is a Psytrance project originating in Buenos Aires, Argentina. In his career as a DJProducer, hes been able to work his way up, sharing the stage with big names of his genre such as Undercover, Astrix, Zen Mechanics, Pragmatix, Lifeforms, and Egorythmia. One of his first appearances in the national scene was at the Buenos Aires Trance(BAT) festival, later performing as a resident at Universal Language and Paradise outdoor among others.",
+        "pais": "",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/25610100&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
 
     },
     {
@@ -28,7 +31,9 @@
         "estilo": "Full-on",
         "img": "assets/img/morsei.png",
         "idspotify": "2HtfoBU1XqW7HHcLpuV3nY",
-        "bio": "Francisco Manzano, known as MoRsei is an Argentinian Psychedelic trance producer and DJ. Born and raised in Buenos Aires, Argentina MoRsei started his musical journey in 2014 as a DJ, and making the next step learning production in 2015. Even with such little time in the scene, has managed to play alongside many great artists at the most important clubs in his city and achieved being in the top Beatport charts with his first single \"Dune\" for Transcape records (Serbia). This was a milestone in his career since got him the opportunity to grow massively. Now as official artist in Maharetta records, we can expect MoRsei releasing a high amount of psychedelic content for your ears delightment !"
+        "bio": "Francisco Manzano, known as MoRsei is an Argentinian Psychedelic trance producer and DJ. Born and raised in Buenos Aires, Argentina MoRsei started his musical journey in 2014 as a DJ, and making the next step learning production in 2015. Even with such little time in the scene, has managed to play alongside many great artists at the most important clubs in his city and achieved being in the top Beatport charts with his first single \"Dune\" for Transcape records (Serbia). This was a milestone in his career since got him the opportunity to grow massively. Now as official artist in Maharetta records, we can expect MoRsei releasing a high amount of psychedelic content for your ears delightment !",
+        "pais": "",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/52407796&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
     },
 
     {
@@ -39,7 +44,9 @@
         "estilo": "Full-on",
         "img": "assets/img/spacetravellers.png",
         "idspotify": "3wLBmxNlGsageQ9xgp62Ex",
-        "bio": "Space Travellers is the Psychedelic Trance Project from Argentina, formed by Ivo Segura & Emiliano Elliot, based in Buenos Aires & Tel Aviv.Without defining boundaries, yet with very unique sound aesthetics, the musical pieces can variate from fast progressive to full-on psychedelics. Intending to turn their live sets into a journey to the vast corners of the human consciousness. "
+        "bio": "Space Travellers is the Psychedelic Trance Project from Argentina, formed by Ivo Segura & Emiliano Elliot, based in Buenos Aires & Tel Aviv.Without defining boundaries, yet with very unique sound aesthetics, the musical pieces can variate from fast progressive to full-on psychedelics. Intending to turn their live sets into a journey to the vast corners of the human consciousness. ",
+        "pais": "",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/115515326&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
     },
     {
         "id": "5",
@@ -49,7 +56,9 @@
         "estilo": "Full-on",
         "img": "assets/img/deep.png",
         "idspotify": "50s6rOFkyBgXegcyNdZELG",
-        "bio": "Progressive Psychedelic project from Argentina. He leaves his unique mark on each track. His music is oriented in groove, psychedelia and trance."
+        "bio": "Progressive Psychedelic project from Argentina. He leaves his unique mark on each track. His music is oriented in groove, psychedelia and trance.",
+        "pais": "",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/56398513&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
 
     },
     {
@@ -60,7 +69,9 @@
         "estilo": "Full-on",
         "img": "assets/img/stlkr.png",
         "idspotify": "5w4v8FtiZIQflngpwodbPm",
-        "bio": "STLKR (Stalker) is the psytrance project from Julián Dagna (Buenos Aires, Argentina). His sound depends on darkness and posses groovy atmospheric and psychedelic sounds. STLKR proposes a strong kickbass, with percussions, strings and synths that recall lands distants in time and space."
+        "bio": "STLKR (Stalker) is the psytrance project from Julián Dagna (Buenos Aires, Argentina). His sound depends on darkness and posses groovy atmospheric and psychedelic sounds. STLKR proposes a strong kickbass, with percussions, strings and synths that recall lands distants in time and space.",
+        "pais": "",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2119460&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
 
     }
 ]
